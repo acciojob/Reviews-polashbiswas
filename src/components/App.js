@@ -69,7 +69,7 @@ const App = () => {
                             <img src={item.image} alt="pic" className="person-img"/>
                             <div>
                             <p className="job">{item.job}</p>
-                            <p id={'author'+"-"+item.id} className="author">{item.name}</p>
+                            <span id={'author'+"-"+item.id} className="author">{item.name}</span>
                             <p className="info">{item.text}</p>
                             </div>
                         </div>
