@@ -68,7 +68,7 @@ const App = () => {
                         <div key={item.id} className={index === reviews ? 'slide active' : 'slide'}>
                             <h2 className="job">{item.job}</h2>
                             <img src={item.image} alt="pic" className="person-img"/>
-                            <h2 className="author" id={'author'+"-"+item.id}>{item.name}</h2>
+                            <h2 id={'author'+"-"+item.id} className="author">{item.name}</h2>
                             <p className="info">{item.text}</p>
                         </div>
                     ))
