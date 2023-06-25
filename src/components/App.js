@@ -73,10 +73,11 @@ const App = () => {
                         </div>
                     ))
                 }
-            </div>
-            <button className="prev-btn" onClick={prevButton}>prev</button>
+                <button className="prev-btn" onClick={prevButton}>prev</button>
             <button className="next-btn" onClick={nextButton}>next</button>
             <button className="random-btn" onClick={surButton}>surprise me</button>
+            </div>
+            
         </div>
     )
 }
