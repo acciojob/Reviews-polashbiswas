@@ -66,9 +66,9 @@ const App = () => {
                 {
                     reviewsArr.map((item, index) => (
                         <div key={item.id} className={index === reviews ? 'slide active' : 'slide'}>
-                            <h2 className="job">{item.job}</h2>
+                            <p className="job">{item.job}</p>
                             <img src={item.image} alt="pic" className="person-img"/>
-                            <h2 id={'author'+"-"+item.id} className="author">{item.name}</h2>
+                            <p id={'author'+"-"+item.id} className="author">{item.name}</p>
                             <p className="info">{item.text}</p>
                         </div>
                     ))
